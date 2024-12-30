@@ -1,0 +1,11 @@
+dependencies {
+
+    implementation project (':usecases')
+    implementation project (':mongo-repository')
+    implementation project(':rabbit-listener-bus')
+
+    implementation 'org.springframework.boot:spring-boot-starter'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+
+    implementation 'org.springframework.boot:spring-boot-starter-amqp'
+}
